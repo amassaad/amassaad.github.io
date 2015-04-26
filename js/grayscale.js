@@ -41,7 +41,7 @@ function init() {
         zoom: 15,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(40.6700, -73.9400), // New York
+        center: new google.maps.LatLng(45.4277, -75.6939), // New York
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
@@ -54,9 +54,9 @@ function init() {
             "featureType": "water",
             "elementType": "geometry",
             "stylers": [{
-                "color": "#000000"
+                "color": "#219ab3"
             }, {
-                "lightness": 17
+                "lightness": 10
             }]
         }, {
             "featureType": "landscape",
@@ -72,7 +72,7 @@ function init() {
             "stylers": [{
                 "color": "#000000"
             }, {
-                "lightness": 17
+                "lightness": 55
             }]
         }, {
             "featureType": "road.highway",
@@ -80,7 +80,7 @@ function init() {
             "stylers": [{
                 "color": "#000000"
             }, {
-                "lightness": 29
+                "lightness": 85
             }, {
                 "weight": 0.2
             }]
@@ -106,7 +106,7 @@ function init() {
             "stylers": [{
                 "color": "#000000"
             }, {
-                "lightness": 21
+                "lightness": 15
             }]
         }, {
             "elementType": "labels.text.stroke",
