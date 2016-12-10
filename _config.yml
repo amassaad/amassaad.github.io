@@ -1,28 +1,46 @@
-# Site settings
-title: Massaad
-email: your-email@domain.com
-url: https://amassaad.github.io
-description: "Alex Massaad is a magician in Ottawa"
-
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary-dark: '#000000'
-  links: '#219ab3'
-
-# Footer settings
-footer: Alex Massaad
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: https://twitter.com/ottawamagician
-  - title: facebook
-    url: https://www.facebook.com/amassaad
-  - title: bitbucket
-    url: http://bitbucket.org/massaad
-  - title: github
-    url: https://github.com/amassaad
-
 # Build settings
-markdown: kramdown
-permalink: pretty
+gems:
+  - jemoji
+  - jekyll-paginate
+
+# Site settings
+title: "Atomic"
+description: > # this means to ignore newlines until "email:"
+   A Jekyll theme - Medium inspired
+
+email: ieee1394@gmail.com
+#blog logo
+logo: "/assets/images/df_logo.jpg"
+# blog cover
+cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+
+name: 'Alex Massaad'
+author: 'Alex Massaad'
+author_image: "/assets/images/author.jpg"
+
+paginate:	5
+
+url: "http://localhost" # the base hostname & protocol for your site
+baseurl: ""
+#used to display twitter cards
+twitter_handle: '@ottawamagician'
+
+#fill in disqus shortname to use disqus
+#disqus: disqus-shortname
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/ottawamagician
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+  - icon:	github
+    url:	https://github.com/amassaad
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
