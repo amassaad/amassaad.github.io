@@ -1,15 +1,11 @@
-name: amassaad
-description: >
- Personal blog of Alex Massaad.
- Thoughts are special.
- Maybe in a good way or maybe special in a bad way.
+name: <name_of_site> 
 markdown: kramdown
 highligther: pygments
-timezone: America/Toronto
+timezone: <timezone>
 exclude: ['Gemfile', 'Gemfile.lock', '*.sublime-*', 'lib','vendor', 'Rakefile', 's3_website.yml']
 relative_permalinks: false
-url: http://blog.zzv.ca
-author: amassaad
+url: <url>
+author: <author_name>
 gems:
     - jekyll-feed
 sass:

@@ -1,13 +1,9 @@
-Grayscale Jekyll theme
-=========================
+# One cent blog
 
-Jekyll theme based on [Grayscale bootstrap theme ](http://ironsummitmedia.github.io/startbootstrap-grayscale/)
+This is repository contains a small template for a Jekyll based blog with minimal responsive CSS. It strives to
+be a batteries included approach to use Jekyll with a push to deploy workflow.
 
-## Demo
-View this jekyll theme in action [here](https://jeromelachaud.github.io/grayscale-theme)
+## Deploying on S3 behind cloudflare
 
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/jeromelachaud/grayscale-theme/master/screenshot.png)
-
-=========
-For more details, read the [documentation](http://jekyllrb.com/)
+[Read the blog post](https://hugotunius.se/aws/cloudflare/web/2016/01/10/the-one-cent-blog.md-the-one-cent-blog.html) for full instructions
+on how to set it up.
